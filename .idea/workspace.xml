@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85f7e263-db4d-41ce-8c80-c60c41b77f7a" name="Changes" comment="övningar för funktionell progrmmering">
-      <change afterPath="$PROJECT_DIR$/src/BasicStrömmar/_Sorting_Joining/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicStrömmar/_Sorting_Joining/LogicBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicStrömmar/primitivaVariablerAnymatch/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicStrömmar/primitivaVariablerAnymatch/LogicBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicStrömmar/primitivaVariablerAnymatch/LogicÖv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicStrömmar/reduce/ReduceÖv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/wordCountLambda/ReadToMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/wordCountLambda/map1h/LogicBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inlämning1_webbshop/SearchProdukt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicStrömmar/flatmap/myBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicStrömmar/flatmap/myBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inlämning1_webbshop/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inlämning1_webbshop/Repository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -45,7 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/lings/IdeaProjects/Funktionell_Programmering/src/BasicStrömmar/Map",
+    "last_opened_file_path": "C:/Users/lings/IdeaProjects/Funktionell_Programmering",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
@@ -63,7 +55,7 @@
       <recent name="BasicStrömmar.primitivaVariablerAnymatch" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadToMap">
+  <component name="RunManager" selected="Application.WebshopMain">
     <configuration name="BasicStrömmar._Sorting_Joining.LogicBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicStrömmar._Sorting_Joining.LogicBook" />
       <module name="Funktionell_Programmering" />
@@ -131,10 +123,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebshopMain" />
         <item itemvalue="Application.ReadToMap" />
         <item itemvalue="Application.Map.map1h.LogicBook" />
-        <item itemvalue="Application.Map.Map.LogicBook" />
-        <item itemvalue="Application.WebshopMain" />
         <item itemvalue="Application.BasicStrömmar._Sorting_Joining.LogicBook" />
       </list>
     </recent_temporary>
@@ -148,7 +139,8 @@
       <option name="presentableId" value="Default" />
       <updated>1674479066416</updated>
       <workItem from="1674479067773" duration="85909000" />
-      <workItem from="1675415378128" duration="36484000" />
+      <workItem from="1675415378128" duration="37103000" />
+      <workItem from="1675806364036" duration="1080000" />
     </task>
     <task id="LOCAL−00001" summary="övningar för funktionell progrmmering">
       <created>1675433953569</created>
@@ -162,7 +154,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1675434186288</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="övningar för funktionell progrmmering">
+      <created>1675805273262</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1675805273262</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

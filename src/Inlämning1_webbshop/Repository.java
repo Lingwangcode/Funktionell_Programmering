@@ -79,6 +79,16 @@ public class Repository implements RepositoryInterface{
             }
 
         }
+
+        SearchProdukt searchColor = (p, s) -> p.getColor().equalsIgnoreCase(s);
+        SearchProdukt searchSize = (p, s) -> p.getSize().equalsIgnoreCase(s);
+        SearchProdukt searchBrand = (p, s) -> p.getBrand().equalsIgnoreCase(s);
+
+        public void searchPro(String input, SearchProdukt sp){
+            getAllProductToList().stream().filter(p -> sp.search(p,input)).
+                    forEach(p -> System.out.println(p.getId() + ". BRAND: " + p.getBrand() + "\tCOLOR: " + p.getColor()
+                            + "\tSIZE: " + p.getSize() + "\tPRICE: " + p.getPrice()));
+        }
         public void printOutAllColorOrBrandOrSize(String searchNr) {
         switch (searchNr){
             case "1" -> {getAllColor(); System.out.println("Enter the color you want: ");}
@@ -100,25 +110,28 @@ public class Repository implements RepositoryInterface{
     }
 
     public void getProductsByColor(String input){
-
-        getAllProductToList().stream().filter(p -> p.getColor().equalsIgnoreCase(input)).
-                forEach(p -> System.out.println(p.getId() + ". BRAND: " + p.getBrand() + "\tCOLOR: " + p.getColor()
-                        + "\tSIZE: " + p.getSize() + "\tPRICE: " + p.getPrice()));
+        searchPro(input, searchColor);
+        //getAllProductToList().stream().filter(p -> p.getColor().equalsIgnoreCase(input)).
+              //  forEach(p -> System.out.println(p.getId() + ". BRAND: " + p.getBrand() + "\tCOLOR: " + p.getColor()
+                      //  + "\tSIZE: " + p.getSize() + "\tPRICE: " + p.getPrice()));
 
     }
 
     public void getProductsBySize(String input){
-
-        getAllProductToList().stream().filter(p -> p.getSize().equalsIgnoreCase(input)).
-                forEach(p -> System.out.println(p.getId() + ". BRAND: " + p.getBrand() + "\tCOLOR: " + p.getColor()
-                        + "\tSIZE: " + p.getSize() + "\tPRICE: " + p.getPrice()));
+        searchPro(input, searchSize);
+       // getAllProductToList().stream().filter(p -> p.getSize().equalsIgnoreCase(input)).
+               // forEach(p -> System.out.println(p.getId() + ". BRAND: " + p.getBrand() + "\tCOLOR: " + p.getColor()
+                      //  + "\tSIZE: " + p.getSize() + "\tPRICE: " + p.getPrice()));
 
     }
 
     public void getProductsByBrand(String input){
-        getAllProductToList().stream().filter(p->p.getBrand().equalsIgnoreCase(input)).
+        searchPro(input, searchBrand);
+       /* getAllProductToList().stream().filter(p->p.getBrand().equalsIgnoreCase(input)).
                 forEach(p-> System.out.println(p.getId() + ". BRAND: " + p.getBrand() + "\tCOLOR: " + p.getColor()
                         + "\tSIZE: " + p.getSize() + "\tPRICE: " + p.getPrice()));
+
+        */
     }
 
     public List<Size> getAllSize (){
