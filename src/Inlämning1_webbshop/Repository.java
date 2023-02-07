@@ -88,13 +88,7 @@ public class Repository implements RepositoryInterface{
         }
     }
 
-    public void getProductsByColor(String input){
 
-        getAllProductToList().stream().filter(p -> p.getColor().equalsIgnoreCase(input)).
-                forEach(p -> System.out.println(p.getId() + ". BRAND: " + p.getBrand() + "\tCOLOR: " + p.getColor()
-                        + "\tSIZE: " + p.getSize() + "\tPRICE: " + p.getPrice()));
-
-    }
 
     public void printOutProduktByInput(String searchNr, String input){
         switch (searchNr){
@@ -103,6 +97,14 @@ public class Repository implements RepositoryInterface{
             case "3" -> getProductsBySize(input);
 
         }
+    }
+
+    public void getProductsByColor(String input){
+
+        getAllProductToList().stream().filter(p -> p.getColor().equalsIgnoreCase(input)).
+                forEach(p -> System.out.println(p.getId() + ". BRAND: " + p.getBrand() + "\tCOLOR: " + p.getColor()
+                        + "\tSIZE: " + p.getSize() + "\tPRICE: " + p.getPrice()));
+
     }
 
     public void getProductsBySize(String input){
@@ -209,7 +211,7 @@ public class Repository implements RepositoryInterface{
                 stmt.setInt(2,Integer.MAX_VALUE);
                 stmt.setInt(3,customerId);
                 stmt.execute();
-                System.out.println("A new order has been added");
+                System.out.println("Your order is added");
 
             } catch (SQLException e) {
                 System.out.println("Something went wrong. Order failed.");
