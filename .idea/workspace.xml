@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85f7e263-db4d-41ce-8c80-c60c41b77f7a" name="Changes" comment="övningar för funktionell progrmmering">
-      <change afterPath="$PROJECT_DIR$/src/Inlämning1_webbshop/SearchProdukt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinScripting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_script_runtime_1_7_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kolinÖv/Forloop/forLoppar1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kolinÖv/GissaTalet/GissaTalet_kotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kolinÖv/RekursionÖv/Ränta.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kolinÖv/radioband/Radioband.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kolinÖv/test/test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kolinÖv/test/test1.ws.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inlämning1_webbshop/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inlämning1_webbshop/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Funktionell_Programmering.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Funktionell_Programmering.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +25,8 @@
       <list>
         <option value="Class" />
         <option value="Interface" />
+        <option value="Kotlin Worksheet" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -37,10 +48,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/lings/IdeaProjects/Funktionell_Programmering",
+    "last_opened_file_path": "C:/Users/lings/IdeaProjects/Objektorienterad Programmering",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -51,63 +63,14 @@
       <recent name="C:\Users\lings\IdeaProjects\Funktionell_Programmering\src\jdbc\läggaPresentSP" />
       <recent name="C:\Users\lings\IdeaProjects\Funktionell_Programmering\src\jdbc\LäggInPresent" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lings\IdeaProjects\Funktionell_Programmering\src\kolinÖv\test" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="BasicStrömmar.primitivaVariablerAnymatch" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WebshopMain">
-    <configuration name="BasicStrömmar._Sorting_Joining.LogicBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicStrömmar._Sorting_Joining.LogicBook" />
-      <module name="Funktionell_Programmering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicStrömmar._Sorting_Joining.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogicBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.Map.LogicBook" />
-      <module name="Funktionell_Programmering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Map.wordCountLambda.map1h.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Map.map1h.LogicBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.map1h.LogicBook" />
-      <module name="Funktionell_Programmering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Map.wordCountLambda.map1h.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadToMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.wordCountLambda.ReadToMap" />
-      <module name="Funktionell_Programmering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Map.wordCountLambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.RäntaKt">
     <configuration name="WebshopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inlämning1_webbshop.WebshopMain" />
       <module name="Funktionell_Programmering" />
@@ -121,12 +84,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GissaTalet_kotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolinÖv.GissaTalet.GissaTalet_kotlinKt" />
+      <module name="Funktionell_Programmering" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadiobandKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolinÖv.radioband.RadiobandKt" />
+      <module name="Funktionell_Programmering" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RäntaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolinÖv.RekursionÖv.RäntaKt" />
+      <module name="Funktionell_Programmering" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolinÖv.TestKt" />
+      <module name="Funktionell_Programmering" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.RäntaKt" />
+        <item itemvalue="Kotlin.GissaTalet_kotlinKt" />
+        <item itemvalue="Kotlin.RadiobandKt" />
+        <item itemvalue="Kotlin.TestKt" />
         <item itemvalue="Application.WebshopMain" />
-        <item itemvalue="Application.ReadToMap" />
-        <item itemvalue="Application.Map.map1h.LogicBook" />
-        <item itemvalue="Application.BasicStrömmar._Sorting_Joining.LogicBook" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +132,7 @@
       <updated>1674479066416</updated>
       <workItem from="1674479067773" duration="85909000" />
       <workItem from="1675415378128" duration="37103000" />
-      <workItem from="1675806364036" duration="1080000" />
+      <workItem from="1675806364036" duration="25578000" />
     </task>
     <task id="LOCAL−00001" summary="övningar för funktionell progrmmering">
       <created>1675433953569</created>
@@ -160,7 +152,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1675805273262</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="övningar för funktionell progrmmering">
+      <created>1675807741800</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1675807741800</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
