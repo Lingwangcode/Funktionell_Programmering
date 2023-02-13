@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85f7e263-db4d-41ce-8c80-c60c41b77f7a" name="Changes" comment="övningar för funktionell progrmmering">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinScripting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_script_runtime_1_7_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kolinÖv/Forloop/forLoppar1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kolinÖv/GissaTalet/GissaTalet_kotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kolinÖv/RekursionÖv/Ränta.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kolinÖv/radioband/Radioband.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kolinÖv/test/test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kolinÖv/test/test1.ws.kts" afterDir="false" />
+    <list default="true" id="85f7e263-db4d-41ce-8c80-c60c41b77f7a" name="Changes" comment="added kotlin övningar">
+      <change afterPath="$PROJECT_DIR$/src/kolinÖv/RekursionÖv/RekursivLista.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Funktionell_Programmering.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Funktionell_Programmering.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/lings/IdeaProjects/Objektorienterad Programmering",
+    "last_opened_file_path": "C:/Users/lings/IdeaProjects/Funktionell_Programmering",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -133,6 +123,7 @@
       <workItem from="1674479067773" duration="85909000" />
       <workItem from="1675415378128" duration="37103000" />
       <workItem from="1675806364036" duration="25578000" />
+      <workItem from="1676024697729" duration="5900000" />
     </task>
     <task id="LOCAL−00001" summary="övningar för funktionell progrmmering">
       <created>1675433953569</created>
@@ -158,7 +149,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1675807741800</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="added kotlin övningar">
+      <created>1676024786123</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1676024786123</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +174,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="övningar för funktionell progrmmering" />
-    <option name="LAST_COMMIT_MESSAGE" value="övningar för funktionell progrmmering" />
+    <MESSAGE value="added kotlin övningar" />
+    <option name="LAST_COMMIT_MESSAGE" value="added kotlin övningar" />
   </component>
 </project>
