@@ -1,6 +1,3 @@
-import java.time.LocalTime
-import java.time.format.DateTimeFormatter
-
 println("Hello World")
 
 fun helloWorld(){
@@ -52,3 +49,12 @@ val hight = 3
 val length = 6
 area(hight, length)
 omKrets2(hight,length)
+val list = listOf(1, 2, 3, 4, 5)
+
+val n = list.size    // get the size of the list
+
+val first = list.subList(0, (n + 1) / 2)
+val second = list.subList((n + 1) / 2, n)
+
+println(first)
+println(second)
